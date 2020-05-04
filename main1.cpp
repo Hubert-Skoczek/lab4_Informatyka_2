@@ -73,7 +73,7 @@ double euler(double t,double y,double h,double (*fun)(double,double))
 }
 double fun(double t,double y)
 {
-	return 0.5*exp(0.5*(t-0.1));//funkcja dla lambdy = 0.5 t0 = 0.1 i y0 =0.5;
+	return 0.5*exp(0.5*(t-0.1));//funkcja dla lambdy = 0.5 t0 = 0.1 i y0 = 0.5;
 }						 
 double y_analitycznie(double t)
 {
